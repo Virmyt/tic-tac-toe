@@ -1,12 +1,12 @@
 {
     "name": "virmyt/tic-tac-toe",
-    "description": "Simle game",
+    "description": "Tic tac toe game",
     "type": "project",
     "license": "MIT",
     "authors": [
         {
             "name": "Artem Pozharskyi",
-            "email": "pogarik@gmail.com"
+            "email": "pozharskiy.a@gmail.com"
         }
     ],
     "minimum-stability": "dev",
