@@ -1,0 +1,17 @@
+{
+    "name": "virmyt/tic-tac-toe",
+    "description": "Simle game",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artem Pozharskyi",
+            "email": "pogarik@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": { "": "src/" }
+    }
+}

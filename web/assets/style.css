@@ -1,0 +1,30 @@
+.grid{
+    width: 600px;
+}
+.grid-element{
+    display: flex;
+    font-size: 100px;
+    justify-content: flex-end;
+    align-content: center;
+    flex-direction: column;
+    width: 198px;
+    float: left;
+    height: 200px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+}
+.new-game {
+    margin: 75px;
+    float: left;
+    font-size: 30px;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 1px;
+    border-color: greenyellow;
+}
+.result{
+    margin: 30px;
+    font-size: 30px;
+}
