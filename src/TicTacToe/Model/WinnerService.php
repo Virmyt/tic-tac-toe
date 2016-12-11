@@ -30,9 +30,10 @@ class WinnerService
     }
 
     /**
-     * @throws EndGameException
+     * @throws NoWinnerException
+     * @throws WinnerFound
      */
-    public function checkWinner()
+    public function checkWinner(): void
     {
         $board = $this->boardStorage->getBoard() ?: [];
         /** @var LineEntity[] $lines */

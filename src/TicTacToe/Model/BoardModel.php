@@ -33,7 +33,7 @@ class BoardModel
     /**
      * Clear all board
      */
-    public function clear()
+    public function clear(): void
     {
         $board = $this->getEmptyBoard();
         $this->boardStorage->saveBoard($board);
@@ -45,7 +45,7 @@ class BoardModel
      * @param int $toY
      * @param bool $value
      */
-    public function applyNewSign(int $toX, int $toY, bool $value)
+    public function applyNewSign(int $toX, int $toY, bool $value): void
     {
         $board = $this->setSign($toX, $toY, $value);
         $this->boardStorage->saveBoard($board);

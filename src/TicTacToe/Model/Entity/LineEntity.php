@@ -49,9 +49,9 @@ class LineEntity
 
     /**
      * @param bool $sign
-     * @return $this
+     * @return LineEntity
      */
-    public function incrementElementCount(bool $sign)
+    public function incrementElementCount(bool $sign): LineEntity
     {
         if ($this->sign === null) {
             $this->sign = $sign;
