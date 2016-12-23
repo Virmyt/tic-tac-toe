@@ -1,0 +1,15 @@
+web:
+    image: nginx:latest
+    container_name: nginx
+    ports:
+        - "80:80"
+    volumes:
+        - ./:/code
+        - ./dev/site.conf:/etc/nginx/conf.d/site.conf
+    links:
+        - php
+php:
+    image: my_php
+    container_name: php
+    volumes:
+      - ./:/code/
